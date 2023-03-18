@@ -18,7 +18,6 @@ document.querySelector('[data-calc]').addEventListener('click', () => {
         const grd = document.querySelector(`[data-grades-${i}]`);
         const crd = document.querySelector(`[data-credits-${i}]`);
         resFirst += Number(grd.value) * Number(crd.value);
-        resFirst.toFixed(1);
         resSecond += Number(crd.value);
     };
     const resFinal = resFirst/resSecond;
