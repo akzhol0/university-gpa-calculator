@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/css_main/style.css">
+        <link rel="stylesheet" href="assets/css/css_media/media.css">
+ 	    <link rel="icon" href="assets/favicon/icon.ico">		
+        <title>GPA Calculator</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="header-container">
+                <h1>GPA CALCULATOR</h1>
+            </div>
+            <div class="input-wrapper">
+                <div class="input-container">
+                    <input placeholder="1 Subject name" type="text">
+                    <div class="input"><h3>Grades:</h3><input placeholder="3.33" data-grd data-grades-1 type="number"></div>
+                    <div class="input"><h3>Credits:</h3><input placeholder="3" data-crd data-credits-1 type="number"></div>            
+                </div>
+                <div class="input-container">
+                    <input placeholder="2 Subject name" type="text">
+                    <div class="input"><h3>Grades:</h3><input placeholder="3.33" data-grd data-grades-2 type="number"></div>
+                    <div class="input"><h3>Credits:</h3><input placeholder="3" data-crd data-grd data-credits-2 type="number"></div>            
+                </div>
+                <div class="input-container">
+                    <input placeholder="3 Subject name" type="text">
+                    <div class="input"><h3>Grades:</h3><input placeholder="3.33" data-grd data-grades-3 type="number"></div>
+                    <div class="input"><h3>Credits:</h3><input placeholder="3" data-crd data-credits-3 type="number"></div>            
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <button data-add>ADD MORE SUBJECT</button>
+                <button data-calc>CALCULATE</button>
+            </div>
+            <div id="res"></div>
+        </section>
+
+        <script src="java_script/core.js"></script>
+    </body>
+</html>
